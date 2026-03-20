@@ -16,11 +16,18 @@
   "packs": [
     {
       "name": "items",
-      "label": "My Items",
+      "label": "Wild Magic Items",
       "path": "packs/items",
       "type": "Item",
       "system": "dnd5e"
-    }
+    },
+  {
+    "name": "tables",
+    "label": "Wild Magic Tables",
+    "path": "packs/tables",
+    "type": "RollTable",
+    "system": "dnd5e"
+  }
   ],
   "url": "https://github.com/hematic/wild-magic-items",
   "manifest": "https://raw.githubusercontent.com/hematic/wild-magic-items/main/module.json",

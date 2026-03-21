@@ -19,43 +19,43 @@
       "label": "Wild Magic Items",
       "path": "packs/items",
       "type": "Item",
-      "system": "dnd5e",
-      "folder": "Wild Magic Items"
+      "system": "dnd5e"
     },
     {
       "name": "tables",
       "label": "Wild Magic Tables",
       "path": "packs/tables",
       "type": "RollTable",
-      "system": "dnd5e",
-      "folder": "Wild Magic Items"
+      "system": "dnd5e"
     },
     {
       "name": "journals",
       "label": "Wild Magic Journals",
       "path": "packs/journals",
       "type": "JournalEntry",
-      "system": "dnd5e",
-      "folder": "Wild Magic Items"
+      "system": "dnd5e"
     },
     {
       "name": "actors",
       "label": "Wild Magic Actors",
       "path": "packs/actors",
       "type": "Actor",
-      "system": "dnd5e",
-      "folder": "Wild Magic Items"
+      "system": "dnd5e"
     }
   ],
   "packFolders": [
     {
       "name": "Wild Magic Items",
       "sorting": "a",
-      "packs": [
-        "items",
-        "tables",
-        "journals",
-        "actors"
+      "color": "#8b0000",
+      "packs": [],
+      "folders": [
+        {
+          "name": "Wild Magic Items",
+          "sorting": "a",
+          "color": "#8b0000",
+          "packs": ["items", "tables", "journals", "actors"]
+        }
       ]
     }
   ],

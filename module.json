@@ -2,7 +2,7 @@
   "id": "wild-magic-items",
   "title": "Wild Magic Items",
   "description": "A brief description of what this module contains.",
-  "version": "1.0.9",
+  "version": "1.1.0",
   "compatibility": {
     "minimum": "13",
     "verified": "13"
@@ -19,32 +19,48 @@
       "label": "Wild Magic Items",
       "path": "packs/items",
       "type": "Item",
-      "system": "dnd5e"
+      "system": "dnd5e",
+      "folder": "Wild Magic Items"
     },
     {
       "name": "tables",
       "label": "Wild Magic Tables",
       "path": "packs/tables",
       "type": "RollTable",
-      "system": "dnd5e"
+      "system": "dnd5e",
+      "folder": "Wild Magic Items"
     },
     {
       "name": "journals",
       "label": "Wild Magic Journals",
       "path": "packs/journals",
       "type": "JournalEntry",
-      "system": "dnd5e"
+      "system": "dnd5e",
+      "folder": "Wild Magic Items"
     },
     {
       "name": "actors",
       "label": "Wild Magic Actors",
       "path": "packs/actors",
       "type": "Actor",
-      "system": "dnd5e"
+      "system": "dnd5e",
+      "folder": "Wild Magic Items"
+    }
+  ],
+  "pack-folders": [
+    {
+      "name": "Wild Magic Items",
+      "sorting": "a",
+      "packs": [
+        "items",
+        "tables",
+        "journals",
+        "actors"
+      ]
     }
   ],
   "url": "https://github.com/hematic/wild-magic-items",
   "manifest": "https://raw.githubusercontent.com/hematic/wild-magic-items/main/module.json",
-  "download": "https://github.com/hematic/wild-magic-items/archive/refs/tags/v1.0.9.zip",
+  "download": "https://github.com/hematic/wild-magic-items/archive/refs/tags/v1.1.0.zip",
   "license": "MIT"
 }

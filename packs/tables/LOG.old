@@ -1,14 +1,15 @@
-2026/03/20-22:14:48.427611 7fe818fbc6c0 Recovering log #15
-2026/03/20-22:14:48.434921 7fe818fbc6c0 Delete type=0 #15
-2026/03/20-22:14:48.435896 7fe818fbc6c0 Delete type=3 #13
-2026/03/20-22:16:44.466150 7fe57ba336c0 Level-0 table #19: started
-2026/03/20-22:16:44.466667 7fe57ba336c0 Level-0 table #19: 0 bytes OK
-2026/03/20-22:16:44.468772 7fe57ba336c0 Delete type=0 #17
-2026/03/20-22:16:44.477446 7fe57ba336c0 Manual compaction at level-0 from '!tables!ISHaXxmFG9yYwtpP' @ 72057594037927935 : 1 .. '!tables.results!pIsEF1jJcD4Z5vgE.sJQ29dmTQnWljTLO' @ 0 : 0; will stop at '!tables.results!c10HiUKsE5FFoC2c.waxlNBEWhImWGJec' @ 14 : 1
-2026/03/20-22:16:44.477467 7fe57ba336c0 Compacting 2@0 + 0@1 files
-2026/03/20-22:16:44.482061 7fe57ba336c0 Generated table #20@0: 116 keys, 59892 bytes
-2026/03/20-22:16:44.482095 7fe57ba336c0 Compacted 2@0 + 0@1 files => 59892 bytes
-2026/03/20-22:16:44.482878 7fe57ba336c0 compacted to: files[ 0 1 0 0 0 0 0 ]
-2026/03/20-22:16:44.484167 7fe57ba336c0 Delete type=2 #5
-2026/03/20-22:16:44.485228 7fe57ba336c0 Delete type=2 #14
-2026/03/20-22:16:44.485883 7fe57ba336c0 Manual compaction at level-0 from '!tables.results!c10HiUKsE5FFoC2c.waxlNBEWhImWGJec' @ 14 : 1 .. '!tables.results!pIsEF1jJcD4Z5vgE.sJQ29dmTQnWljTLO' @ 0 : 0; will stop at (end)
+2026/03/21-17:51:54.799743 7fe81a7bf6c0 Recovering log #22
+2026/03/21-17:51:54.800528 7fe81a7bf6c0 Level-0 table #24: started
+2026/03/21-17:51:54.804252 7fe81a7bf6c0 Level-0 table #24: 64724 bytes OK
+2026/03/21-17:51:54.810073 7fe81a7bf6c0 Delete type=0 #22
+2026/03/21-17:51:54.810652 7fe81a7bf6c0 Delete type=3 #21
+2026/03/21-17:52:05.444221 7fe57ba336c0 Compacting 1@0 + 1@1 files
+2026/03/21-17:52:05.449751 7fe57ba336c0 Generated table #26@0: 314 keys, 111528 bytes
+2026/03/21-17:52:05.449770 7fe57ba336c0 Compacted 1@0 + 1@1 files => 111528 bytes
+2026/03/21-17:52:05.450298 7fe57ba336c0 compacted to: files[ 0 1 0 0 0 0 0 ]
+2026/03/21-17:52:05.451082 7fe57ba336c0 Delete type=2 #20
+2026/03/21-17:52:05.451761 7fe57ba336c0 Delete type=2 #24
+2026/03/21-20:19:51.748316 7fe57ba336c0 Level-0 table #28: started
+2026/03/21-20:19:51.748703 7fe57ba336c0 Level-0 table #28: 0 bytes OK
+2026/03/21-20:19:51.750097 7fe57ba336c0 Delete type=0 #25
+2026/03/21-20:19:51.764351 7fe57ba336c0 Manual compaction at level-0 from '!tables!5suoNrD4xFvH61WV' @ 72057594037927935 : 1 .. '!tables.results!x4nfavax7ptz1l0S.yA98ul5fW9GjVTj6' @ 0 : 0; will stop at (end)

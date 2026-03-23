@@ -1,8 +1,8 @@
 {
   "id": "wild-magic-items",
   "title": "Wild Magic Items",
-  "description": "A collection of wild magic items for D&D 5e. Many featuring unique roll tables that bring unpredictable and exciting effects to your game. Others that grow with your player's following the Vestige's model from Exandria.",
-  "version": "1.1.6",
+  "description": "A collection of wild magic items for D&D 5e, many featuring unique roll tables that bring unpredictable and exciting effects to your game.",
+  "version": "1.1.7",
   "compatibility": {
     "minimum": "13",
     "verified": "13"
@@ -10,7 +10,8 @@
   "authors": [
     {
       "name": "hematic",
-      "discord": "hematic"
+      "discord": "hematic",
+      "url": "https://github.com/hematic"
     }
   ],
   "relationships": {
@@ -21,44 +22,53 @@
   "packs": [
     {
       "name": "items",
-      "label": "Hematic's Magic Modules",
+      "label": "Wild Magic Items",
       "path": "packs/items",
       "type": "Item",
-      "system": "dnd5e",
-      "folder": "Hematic's Magic Modules"
+      "system": "dnd5e"
     },
     {
       "name": "tables",
       "label": "Wild Magic Tables",
       "path": "packs/tables",
       "type": "RollTable",
-      "system": "dnd5e",
-      "folder": "Hematic's Magic Modules"
+      "system": "dnd5e"
     },
     {
       "name": "actors",
       "label": "Wild Magic Actors",
       "path": "packs/actors",
       "type": "Actor",
-      "system": "dnd5e",
-      "folder": "Hematic's Magic Modules"
+      "system": "dnd5e"
     }
   ],
   "packFolders": [
     {
       "name": "Hematic's Magic Modules",
       "sorting": "a",
-      "packs": [
-        "items",
-        "tables",
-        "journals",
-        "actors"
+      "packs": [],
+      "folders": [
+        {
+          "name": "Items",
+          "sorting": "a",
+          "packs": ["items"]
+        },
+        {
+          "name": "Actors",
+          "sorting": "a",
+          "packs": ["actors"]
+        },
+        {
+          "name": "Tables",
+          "sorting": "a",
+          "packs": ["tables"]
+        },
       ]
     }
   ],
   "url": "https://github.com/hematic/wild-magic-items",
   "manifest": "https://raw.githubusercontent.com/hematic/wild-magic-items/main/module.json",
-  "download": "https://github.com/hematic/wild-magic-items/archive/refs/tags/v1.1.6.zip",
+  "download": "https://github.com/hematic/wild-magic-items/archive/refs/tags/v1.1.7.zip",
   "readme": "https://github.com/hematic/wild-magic-items/blob/main/README.md",
   "changelog": "https://github.com/hematic/wild-magic-items/blob/main/CHANGELOG.md",
   "bugs": "https://github.com/hematic/wild-magic-items/issues",

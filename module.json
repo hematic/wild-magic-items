@@ -2,7 +2,7 @@
   "id": "wild-magic-items",
   "title": "Wild Magic Items",
   "description": "A collection of wild magic items for D&D 5e, many featuring unique roll tables that bring unpredictable and exciting effects to your game.",
-  "version": "1.1.9",
+  "version": "1.2.0",
   "compatibility": {
     "minimum": "13",
     "verified": "13"
@@ -21,23 +21,37 @@
   },
   "packs": [
     {
-      "name": "items",
+      "name": "wild-magic-items",
       "label": "Wild Magic Items",
-      "path": "packs/items",
+      "path": "packs/wild-magic-items",
       "type": "Item",
       "system": "dnd5e"
     },
     {
-      "name": "tables",
+      "name": "awakened-items",
+      "label": "Awakened Items",
+      "path": "packs/awakened-items",
+      "type": "Item",
+      "system": "dnd5e"
+    },
+    {
+      "name": "magic-item-menagerie",
+      "label": "Magic Item Menagerie",
+      "path": "packs/magic-item-menagerie",
+      "type": "Item",
+      "system": "dnd5e"
+    },
+    {
+      "name": "wild-magic-tables",
       "label": "Wild Magic Tables",
-      "path": "packs/tables",
+      "path": "packs/wild-magic-tables",
       "type": "RollTable",
       "system": "dnd5e"
     },
     {
-      "name": "actors",
+      "name": "wild-magic-actors",
       "label": "Wild Magic Actors",
-      "path": "packs/actors",
+      "path": "packs/wild-magic-actors",
       "type": "Actor",
       "system": "dnd5e"
     }
@@ -49,26 +63,57 @@
       "packs": [],
       "folders": [
         {
-          "name": "Items",
-          "sorting": "a",
-          "packs": ["items"]
-        },
-        {
           "name": "Actors",
           "sorting": "a",
-          "packs": ["actors"]
+          "packs": [],
+          "folders": [
+            {
+              "name": "Wild Magic Actors",
+              "sorting": "a",
+              "packs": ["wild-magic-actors"]
+            }
+          ]
+        },
+        {
+          "name": "Items",
+          "sorting": "a",
+          "packs": [],
+          "folders": [
+            {
+              "name": "Awakened Items",
+              "sorting": "a",
+              "packs": ["awakened-items"]
+            },
+            {
+              "name": "Magic Item Menagerie",
+              "sorting": "a",
+              "packs": ["magic-item-menagerie"]
+            },
+            {
+              "name": "Wild Magic Items",
+              "sorting": "a",
+              "packs": ["wild-magic-items"]
+            }
+          ]
         },
         {
           "name": "Tables",
           "sorting": "a",
-          "packs": ["tables"]
+          "packs": [],
+          "folders": [
+            {
+              "name": "Wild Magic Tables",
+              "sorting": "a",
+              "packs": ["wild-magic-tables"]
+            }
+          ]
         }
       ]
     }
   ],
   "url": "https://github.com/hematic/wild-magic-items",
   "manifest": "https://raw.githubusercontent.com/hematic/wild-magic-items/main/module.json",
-  "download": "https://github.com/hematic/wild-magic-items/archive/refs/tags/v1.1.9.zip",
+  "download": "https://github.com/hematic/wild-magic-items/archive/refs/tags/v1.2.0.zip",
   "readme": "https://github.com/hematic/wild-magic-items/blob/main/README.md",
   "changelog": "https://github.com/hematic/wild-magic-items/blob/main/CHANGELOG.md",
   "bugs": "https://github.com/hematic/wild-magic-items/issues",

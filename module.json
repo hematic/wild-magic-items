@@ -2,7 +2,7 @@
   "id": "wild-magic-items",
   "title": "Wild Magic Items",
   "description": "A collection of wild magic items for D&D 5e, many featuring unique roll tables that bring unpredictable and exciting effects to your game.",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "compatibility": {
     "minimum": "13",
     "verified": "13"
@@ -82,7 +82,7 @@
   ],
   "url": "https://github.com/hematic/wild-magic-items",
   "manifest": "https://raw.githubusercontent.com/hematic/wild-magic-items/main/module.json",
-  "download": "https://github.com/hematic/wild-magic-items/archive/refs/tags/v1.2.3.zip",
+  "download": "https://github.com/hematic/wild-magic-items/archive/refs/tags/v1.2.4.zip",
   "readme": "https://github.com/hematic/wild-magic-items/blob/main/README.md",
   "changelog": "https://github.com/hematic/wild-magic-items/blob/main/CHANGELOG.md",
   "bugs": "https://github.com/hematic/wild-magic-items/issues",

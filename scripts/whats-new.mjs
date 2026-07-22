@@ -1,11 +1,10 @@
 const MODULE_ID = "wild-magic-items";
 
 const CHANGELOG = `
-<h2>Wild Magic Items v1.2.4</h2>
+<h2>Wild Magic Items v1.3.0</h2>
 <ul>
-  <li>Added new wild magic items to the Menagerie pack</li>
-  <li>Updated roll table descriptions</li>
-  <li>Various text fixes</li>
+  <li>Verified compatibility with Foundry VTT V14</li>
+  <li>Migrated the "What's New" dialog to the modern DialogV2 API</li>
 </ul>
 `;
 
@@ -27,18 +26,19 @@ Hooks.once("ready", async () => {
 
   if (lastSeen === currentVersion) return;
 
-  // Show the dialog
-  new Dialog({
-    title: "Wild Magic Items — What's New",
+  // Show the dialog (DialogV2 — V14 compatible)
+  await foundry.applications.api.DialogV2.wait({
+    window: { title: "Wild Magic Items — What's New" },
     content: CHANGELOG,
-    buttons: {
-      close: {
+    buttons: [
+      {
+        action: "close",
         label: "Got it!",
-        callback: () => {
-          game.settings.set(MODULE_ID, "lastSeenVersion", currentVersion);
-        },
+        default: true,
+        callback: () =>
+          game.settings.set(MODULE_ID, "lastSeenVersion", currentVersion),
       },
-    },
-    default: "close",
-  }).render(true);
+    ],
+    rejectClose: false,
+  });
 });

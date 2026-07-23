@@ -2,7 +2,7 @@
   "id": "wild-magic-items",
   "title": "Wild Magic Items",
   "description": "A large collection of wild magic items for D&D 5e, many featuring unique roll tables that bring unpredictable and exciting effects to your game.",
-  "version": "1.3.2",
+  "version": "1.3.3",
   "compatibility": {
     "minimum": "13",
     "verified": "14"
@@ -54,6 +54,13 @@
       "path": "packs/wild-magic-actors",
       "type": "Actor",
       "system": "dnd5e"
+    },
+    {
+      "name": "wild-magic-macros",
+      "label": "Wild Magic Macros",
+      "path": "packs/wild-magic-macros",
+      "type": "Macro",
+      "system": "dnd5e"
     }
   ],
   "packFolders": [
@@ -71,6 +78,11 @@
           "name": "Items",
           "sorting": "a",
           "packs": ["awakened-items", "magic-item-menagerie", "wild-magic-items"]
+        },
+        {
+          "name": "Macros",
+          "sorting": "a",
+          "packs": ["wild-magic-macros"]
         },
         {
           "name": "Tables",

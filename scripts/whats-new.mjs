@@ -1,18 +1,15 @@
 const MODULE_ID = "wild-magic-items";
 
+// Heading is built from the manifest version so it can't drift out of date.
 const CHANGELOG = `
-<h2>Wild Magic Items v1.3.0</h2>
 <ul>
-  <li>Verified compatibility with Foundry VTT V14</li>
-  <li>Migrated the "What's New" dialog to the modern DialogV2 API</li>
+  <li>Added the Wild Magic Macros compendium</li>
+  <li>Added 7 Magical Tattoos, the Soul Gorger weapon, the Indulgence Token and the Ritual Dagger</li>
 </ul>
 `;
 
-Hooks.once("ready", async () => {
-  // Only show to GMs
-  if (!game.user.isGM) return;
-
-  // Register the setting to track last seen version
+Hooks.once("init", () => {
+  // Registered at init so the setting exists before anything reads it.
   game.settings.register(MODULE_ID, "lastSeenVersion", {
     name: "Last Seen Version",
     scope: "client",
@@ -20,6 +17,11 @@ Hooks.once("ready", async () => {
     type: String,
     default: "",
   });
+});
+
+Hooks.once("ready", async () => {
+  // Only show to GMs
+  if (!game.user.isGM) return;
 
   const currentVersion = game.modules.get(MODULE_ID).version;
   const lastSeen = game.settings.get(MODULE_ID, "lastSeenVersion");
@@ -29,16 +31,18 @@ Hooks.once("ready", async () => {
   // Show the dialog (DialogV2 — V14 compatible)
   await foundry.applications.api.DialogV2.wait({
     window: { title: "Wild Magic Items — What's New" },
-    content: CHANGELOG,
+    content: `<h2>Wild Magic Items v${currentVersion}</h2>${CHANGELOG}`,
     buttons: [
       {
-        action: "close",
+        action: "acknowledge",
         label: "Got it!",
         default: true,
-        callback: () =>
-          game.settings.set(MODULE_ID, "lastSeenVersion", currentVersion),
       },
     ],
     rejectClose: false,
   });
+
+  // Recorded after the dialog closes so dismissing with the window's X counts
+  // as seen too — otherwise the dialog returns on every login.
+  await game.settings.set(MODULE_ID, "lastSeenVersion", currentVersion);
 });

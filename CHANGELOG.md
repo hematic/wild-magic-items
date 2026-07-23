@@ -2,6 +2,10 @@
 
 All notable changes to Wild Magic Items will be documented here.
 
+## [1.3.1] - 2026-07-22
+### Changed
+- Updated module description
+
 ## [1.0.2] - 2026-03-19
 ### Added
 - Deck of Many Creatures item with artwork

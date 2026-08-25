@@ -2,6 +2,10 @@
 
 All notable changes to Wild Magic Items will be documented here.
 
+## [1.3.5] - 2026-08-24
+### Added
+- Purse of the Mite wondrous item
+
 ## [1.3.4] - 2026-07-22
 ### Fixed
 - "What's New" dialog reappearing on every login when dismissed with the window's close button

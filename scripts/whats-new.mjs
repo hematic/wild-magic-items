@@ -3,8 +3,7 @@ const MODULE_ID = "wild-magic-items";
 // Heading is built from the manifest version so it can't drift out of date.
 const CHANGELOG = `
 <ul>
-  <li>Added the Wild Magic Macros compendium</li>
-  <li>Added 7 Magical Tattoos, the Soul Gorger weapon, the Indulgence Token and the Ritual Dagger</li>
+  <li>Added the Purse of the Mite wondrous item</li>
 </ul>
 `;
 

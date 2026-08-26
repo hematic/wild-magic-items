@@ -70,11 +70,23 @@ Deck of Many Creatures, and the planted form of The Undying Banner.
 - Foundry VTT **V13+** (verified on V14)
 - **D&D 5e** system
 
-### Optional
+### Optional content modules
 
-The **Deck of Many Creatures** table draws 10 of its 19 results from the
-official **D&D Monster Manual** module. Without it those draws won't resolve;
-the remaining results come from the 5e system's own SRD actors.
+Some content links out to Wizards' official Foundry modules. Everything remains
+installable and readable without them, but the links below won't resolve:
+
+| Module | Used by | What breaks without it |
+| --- | --- | --- |
+| **D&D Player's Handbook** | 33 of the 42 Awakened Items | Base-weapon links in descriptions, and the cast-spell activities (Identify, Speak with Animals, Dispel Magic and friends) |
+| **D&D Monster Manual** | Deck of Many Creatures | 10 of the 19 draws |
+
+The Deck's remaining 9 draws are fine either way: 7 come from the 5e system's
+own SRD actors, 1 is the Goliath Werebear bundled in Wild Magic Actors, and 1
+("The Other") summons a duplicate of the drawer, so it needs no statblock.
+
+If you don't own the Player's Handbook module, the Awakened Items still work as
+written; you'll just be casting their spells manually rather than from the item
+sheet.
 
 ## License
 

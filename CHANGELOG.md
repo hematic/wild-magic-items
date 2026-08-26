@@ -13,7 +13,10 @@ All notable changes to Wild Magic Items will be documented here.
 ### Changed
 - Ring of Familiars now summons from the module's own Wild Magic Actors
   compendium instead of requiring outside content
-- README rewritten with real installation instructions and compendium contents
+- Cleared three Active Effect origins in Awakened Items that pointed at
+  content outside the module and could never resolve
+- README rewritten with real installation instructions, compendium contents,
+  and the optional Player's Handbook / Monster Manual module dependencies
 
 ## [1.3.5] - 2026-08-24
 ### Added

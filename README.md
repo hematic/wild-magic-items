@@ -22,7 +22,7 @@ Six compendia, filed under a **Hematic's Magic Modules** compendium folder:
 | Awakened Items | Item | 42 | 14 items that grow through three tiers as they awaken |
 | Magic Item Menagerie | Item | 42 | Wondrous items, potions, scrolls and tattoos |
 | Wild Magic Tables | RollTable | 12 | The tables the items roll on (333 results total) |
-| Wild Magic Actors | Actor | 31 | Creatures summoned by the items |
+| Wild Magic Actors | Actor | 32 | Creatures summoned by the items |
 | Wild Magic Macros | Macro | 2 | Automation for items that need it |
 
 ### Wild Magic Items
@@ -59,9 +59,11 @@ Rarity climbs with each tier, from uncommon up to legendary.
 
 ### Wild Magic Actors
 
-A small bestiary of thirty real-world animals — axolotl, capybara, fennec fox,
-pangolin, quokka, serval and friends — statted as NPCs, plus the planted form of
-The Undying Banner.
+Thirty real-world animals statted as NPCs — axolotl, capybara, fennec fox,
+pangolin, quokka, serval and friends — one for each result on the Ring of
+Familiars table, so the ring summons creatures bundled with the module rather
+than anything you need to supply. Also included: a Goliath Werebear drawn by the
+Deck of Many Creatures, and the planted form of The Undying Banner.
 
 ## Compatibility
 

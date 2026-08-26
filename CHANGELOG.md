@@ -2,6 +2,19 @@
 
 All notable changes to Wild Magic Items will be documented here.
 
+## [1.3.6] - 2026-08-26
+### Fixed
+- Deck of Many Creatures: the Goliath Werebear result linked to a world-level
+  compendium, so it only resolved on the author's own install
+
+### Added
+- Goliath Werebear to the Wild Magic Actors compendium
+
+### Changed
+- Ring of Familiars now summons from the module's own Wild Magic Actors
+  compendium instead of requiring outside content
+- README rewritten with real installation instructions and compendium contents
+
 ## [1.3.5] - 2026-08-24
 ### Added
 - Purse of the Mite wondrous item

@@ -2,7 +2,7 @@
   "id": "wild-magic-items",
   "title": "Wild Magic Items",
   "description": "A large collection of wild magic items for D&D 5e, many featuring unique roll tables that bring unpredictable and exciting effects to your game.",
-  "version": "1.3.5",
+  "version": "1.3.6",
   "compatibility": {
     "minimum": "13",
     "verified": "14"

@@ -3,7 +3,9 @@ const MODULE_ID = "wild-magic-items";
 // Heading is built from the manifest version so it can't drift out of date.
 const CHANGELOG = `
 <ul>
-  <li>Added the Purse of the Mite wondrous item</li>
+  <li>The Ring of Familiars now summons creatures bundled with the module</li>
+  <li>Added the Goliath Werebear to the Wild Magic Actors compendium</li>
+  <li>Fixed a Deck of Many Creatures result that linked to missing content</li>
 </ul>
 `;
 
